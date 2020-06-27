@@ -1,12 +1,27 @@
-:root {
-  font: 16px / 1 sans-serif;
+img {
+    height: 150px;
 }
 
-html {
-  height: 100%;
+h1, h2, p, li {
+    font-family: Helvetica;
 }
 
-body {
-  margin: 0;
-  min-height: 100%;
+.description {
+    font-size: 20px;
+}
+
+#cook-time {
+    font-weight: bold;
+}
+
+.ingredients li {
+    list-style: square;
+}
+
+p.time {
+    color: gray;
+}
+
+.external-link {
+    color: SeaGreen;
 }
